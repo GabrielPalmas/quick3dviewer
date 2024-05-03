@@ -9,9 +9,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: var(--font-color);
+    
 }
+
+
 
 body {
     background: rgb(244,135,243);
@@ -19,7 +22,7 @@ body {
     background: -webkit-linear-gradient(164deg, rgba(244,135,243,1) 0%, rgba(76,67,182,1) 100%);
     background: linear-gradient(164deg, rgba(244,135,243,1) 0%, rgba(76,67,182,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f487f3",endColorstr="#4c43b6",GradientType=1);
-
+    overflow: hidden;
     height: 100vh;
 
 }
@@ -43,12 +46,9 @@ p {
 
 .container {
     background-color: rgba(176, 176, 176, 0.159);
-
     padding: 0px;
     margin: 20px;
     border-radius: 15px;
-
-    outline: #ffffff4b solid 1px;
-
+    outline: #ffffff9d solid 1px;
     box-shadow: 0 0 25px rgba(34, 84, 122, 0.15);
 }
