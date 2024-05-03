@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6f97b8;
+    --font-color: #2d5271;
+    --font-size: 16px;
+}
+
+body {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: var(--font-size);
+}
+
+h1, h2 {
+    color: var(--font-color);
+}
+
+.container {
+    margin: auto;
+    padding: 250px 5%;
+}
