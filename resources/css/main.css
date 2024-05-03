@@ -1,8 +1,14 @@
 :root {
     --primary-color: #007bff;
-    --secondary-color: #6f97b8;
-    --font-color: #2d5271;
+    --secondary-color: #30697e;
+    --font-color : #1d282f;
     --font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,11 +17,16 @@ body {
     font-size: var(--font-size);
 }
 
-h1, h2 {
+h1 {
     color: var(--font-color);
+    font-size: 2.5rem;
 }
 
 .container {
-    margin: auto;
-    padding: 250px 5%;
+    background-color: rgba(255, 255, 255, 0.159);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    outline-width: 0;
+    box-shadow: 0 0 10px rgba(34, 84, 122, 0.5);
 }
